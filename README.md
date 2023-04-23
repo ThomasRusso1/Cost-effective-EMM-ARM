@@ -1,5 +1,6 @@
 # Cost-effective-EMM-ARM
 The Elastic Modulus Measurement through Ambient Response Method (EMM-ARM) is designed to continuously monitor the elastic modulus of hardening construction materials such as concrete, cement paste, mortars, stabilized soils, and epoxy resin.
+By using a Raspberry Pi for the computing device and cost-effective electronic components, the cost of the system was one-twentieth of the traditional one, without compromising the measurement reliability.
 
 Regarding the codes, several files were are necessary:
 - ADS1256.py contains the functions to register parameters and manage measurements with the ADC.
