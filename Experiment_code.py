@@ -45,12 +45,6 @@ desiredChannel = 1 #Number of variables in the file. For example, National test 
 
 #Calibration factor of the sensor used to convert test file reading to g's
 calibrationFactor = 1 #This is for National
-#calibrationFactor = 1/2400 #This is for commercial ADXL335
-
-# Sampling frequency
-#samplingFrequencyOriginal=1200 #In Hz. Not used by uEMMARM, which is based on a fixed duration of measurement session, automatically obtained from test files
-# Length of window for PSD/FFT
-#nps = samplingFrequencyOriginal +1
 
 #Filter configuration
 #See documentation about the function
@@ -129,17 +123,14 @@ GPIO.setup(led2, GPIO.OUT)
 GPIO.setup(led3, GPIO.OUT)
 GPIO.setup(led4, GPIO.OUT)
 
-#GPIO.output(relay1,0)
-#GPIO.output(relay2,0)
-#GPIO.output(relay3,0)
 GPIO.output(led1,1)
 GPIO.output(led2,1)
 GPIO.output(led3,1)
 GPIO.output(led4,1)
 GPIO.output(relay3,1)                                                            
 
-count = 75
-count_file = 75
+count = 0
+count_file = 0
 
 Acceleration_list = []
 Volatge_list = []
