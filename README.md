@@ -14,4 +14,3 @@ A 3D printed box was designed in order to host all the components of the device 
 <img width="323" alt="image" src="https://user-images.githubusercontent.com/97248962/233833350-5f6a63ad-1edb-40da-8da8-1ee0c3c2cf22.png">
 
 Associated publication: https://www.mdpi.com/2075-5309/13/5/1117
-Datasets of the 1st and 3rd experiments presented in the publication are available on: https://zenodo.org/record/7856529
