@@ -53,7 +53,6 @@ filterConfiguration = { 1: {'filter': 'detrend', 'type': 'linear'},
 
 #Selection of modal identification methods
 modalIdentificationMethod_SingleAnalysis = {'peak-picking':False, 'BFD':False, 'EFDD':False, 'SSI-COV':True}
-modalIdentificationMethod_BatchAnalysis = {'peak-picking':True, 'BFD':False, 'EFDD':False, 'SSI-COV':True}
 
 #Peak-picking method
 #Interval for averaging around the peak for the average peak-picking method
