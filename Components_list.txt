@@ -1,0 +1,18 @@
+Components needed for this project:
+- RaspberryPi 4 model B
+- High precision AD-DA board (Waveshare)
+- DAC module MCP4725 I2C (Adafruit)
+- Transistor TIP120
+- High current operational amplifier
+- 5V fan
+- set of resistors
+- BNC male connectors x4
+- BNC female connectors x4
+- SP13 male connectors x4
+- SP13 female connectors x4
+- Jack 5.5/2.5 female connectors x3
+- LED supports x4
+- LED red 5mm x4
+- 5V supply 
+- 9V supply x2
+- Relays x4
