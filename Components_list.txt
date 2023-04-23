@@ -16,3 +16,4 @@ Components needed for this project:
 - 5V supply 
 - 9V supply x2
 - Relays x4
+- Custom amplifting-shifting module PCB (Gerber file available)
