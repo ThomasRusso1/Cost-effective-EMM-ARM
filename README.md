@@ -10,3 +10,4 @@ Regarding the codes, several files were are necessary:
 - MRPy also contains functions associated with calculations of the resonant frequencies.
 
 Associated publication: https://www.mdpi.com/2075-5309/13/5/1117
+Datasets of the 1st and 3rd experiments presented in the publication are available on: https://zenodo.org/record/7846491
