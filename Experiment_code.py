@@ -87,8 +87,6 @@ tol = np.array(([0.001,10, 250],     # [allowed_variation, lower_bound, higher_b
 #Base configuration for plot
 plotConfiguration={'typeForPSD': 'None', 'frequencyBand': [0,250], 'ylimForPSD': [1e-10,None], 'typeForEFDD': 'only_ANPSD', 'ylimForEFDD': [None,1], 'typeForBFD':True, 'typeForEFDD': 'Autocorrelation-SVD', 'fontSize': 10, 'fontName':'Times New Roman', 'figSize': (5,2), 'figSizeBFD': (5,5), 'figSizeEFDD': (5,5), 'typeForStabilizationDiagram': 'StabilizationPSD', 'figSizeStabilization': (7,7), 'dpi': 150}
 
-plotConfiguration_Batch={'typeForPSD': False, 'frequencyBand': [0,100], 'ylimForPSD': [1e-10,None], 'typeForEFDD': False, 'ylimForEFDD': [None,1], 'typeForBFD':False, 'fontSize': 10, 'fontName':'Times New Roman', 'figSize': (5,2), 'figSizeBFD': (5,5), 'figSizeEFDD': (5,5), 'typeForStabilizationDiagram': False, 'figSizeStabilization': (7,7), 'dpi': 150}
-
 selectedFileType = fileTypes[2]
 selectedFileExtension = selectedFileType[1][-4:]
 
